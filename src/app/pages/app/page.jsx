@@ -166,7 +166,7 @@ const Appn = () => {
       <div className="app-container">
         <div className="developer-section">
           <h2>Developer Information</h2>
-          <Image
+         // <Image
             className="profile-image"
             src={assets.developer}
             alt="Developer Profile"
@@ -174,10 +174,10 @@ const Appn = () => {
             animate={{ x: 0 }}
             transition={{ type: 'spring', stiffness: 50 }}
           />
-          <p>
+         // <p>
             Faizan Hameed is a Full Stack Developer experienced in developing high-performance web applications using React, Next.js, Node.js, and MongoDB. Passionate about learning new technologies and improving coding skills. Open-source enthusiast and contributor.
           </p>
-          <div className="skills">
+        //  <div className="skills">
             {['JavaScript', 'React', 'Next.js', 'Node.js', 'MongoDB', 'TailwindCss', 'Python', 'React-Native', 'SQL', 'MySQL', 'Redux', 'Git', 'Postman'].map((skill, index) => (
               <div
                 key={index}
