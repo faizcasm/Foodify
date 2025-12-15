@@ -1,7 +1,0 @@
-{
-  "/pages/profile/[...id]/page": "app/pages/profile/[...id]/page.js",
-  "/[...not_found]/page": "app/[...not_found]/page.js",
-  "/page": "app/page.js",
-  "/api/foods/getcart/route": "app/api/foods/getcart/route.js",
-  "/api/users/dash/route": "app/api/users/dash/route.js"
-}
