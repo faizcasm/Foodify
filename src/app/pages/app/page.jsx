@@ -168,14 +168,14 @@ const Appn = () => {
           <h2>Developer Information</h2>
           <Image
             className="profile-image"
-            src={"https://picsum.photos/200/300"}
+            src={assets.developer}
             alt="Developer Profile"
             initial={{ x: '-100vw' }}
             animate={{ x: 0 }}
             transition={{ type: 'spring', stiffness: 50 }}
           />
           <p>
-            Umar is a Full Stack Developer experienced in developing high-performance web applications using React, Next.js, Node.js, and MongoDB. Passionate about learning new technologies and improving coding skills. Open-source enthusiast and contributor.
+            Faizan Hameed is a Full Stack Developer experienced in developing high-performance web applications using React, Next.js, Node.js, and MongoDB. Passionate about learning new technologies and improving coding skills. Open-source enthusiast and contributor.
           </p>
           <div className="skills">
             {['JavaScript', 'React', 'Next.js', 'Node.js', 'MongoDB', 'TailwindCss', 'Python', 'React-Native', 'SQL', 'MySQL', 'Redux', 'Git', 'Postman'].map((skill, index) => (
