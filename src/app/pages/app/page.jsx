@@ -168,7 +168,7 @@ const Appn = () => {
           <h2>Developer Information</h2>
           <Image
             className="profile-image"
-            src={assets.developer}
+            src={assets.developer.jpg}
             alt="Developer Profile"
             initial={{ x: '-100vw' }}
             animate={{ x: 0 }}
